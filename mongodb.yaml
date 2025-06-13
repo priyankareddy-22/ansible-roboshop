@@ -26,5 +26,5 @@
 
   - name: install mongodb server  
     ansible.builtin.dnf:
-      name: mongod
+      name: mongodb
       state: present
