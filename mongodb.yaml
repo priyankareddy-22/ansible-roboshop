@@ -27,4 +27,4 @@
   - name: install mongodb server  
     ansible.builtin.dnf:
       name: mongod
-      state: restarted
+      state: present
